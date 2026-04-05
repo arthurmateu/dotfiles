@@ -301,6 +301,7 @@ require('lazy').setup({
         ---@diagnostic disable-next-line: missing-fields
         opts = {},
       },
+      'mason-org/mason-lspconfig.nvim',
       'WhoIsSethDaniel/mason-tool-installer.nvim',
       { 'j-hui/fidget.nvim', opts = {} },
     },
